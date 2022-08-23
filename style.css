@@ -126,6 +126,9 @@ nav > .logo {
   color: var(--orange);
 }
 /* Formal shoes */
+.formal-shoes {
+  padding: 80px 0px;
+}
 .formal-shoes-container {
   display: flex;
   align-items: center;
@@ -153,4 +156,15 @@ nav > .logo {
   border-radius: 10px;
   width: 330px;
   height: 327px;
+}
+.formal-shoes-container .f-shoe .f-shoe-content {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.formal-shoes-container .f-shoe .f-shoe-content p {
+  font-size: 36px;
+  color: var(--orange);
+  font-weight: bold;
 }
