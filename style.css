@@ -26,6 +26,8 @@ body {
   padding: 18px 33px;
   border-radius: 10px;
   display: inline-block;
+  color: var(--text-white);
+  text-decoration: none;
 }
 /* Header-section */
 header {
