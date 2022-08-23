@@ -12,6 +12,8 @@ body {
   --gray: #3c3c3c;
   --text-white: #fff;
   --background: #fff9f4;
+  --orange: #fa804c;
+  --dark-balue: #363958;
 }
 
 .container {
@@ -48,13 +50,21 @@ nav > .logo {
 
 /* Hero-section */
 .hero-section {
-  padding: 38px 109px;
+  padding: 42px 58px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .hero-section .left img {
   height: 400px;
   width: 400px;
+}
+
+.hero-section .right h2 {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 80px;
+}
+.hero-section .right h2 span {
+  color: var(--dark-balue);
 }
