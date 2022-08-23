@@ -3,7 +3,14 @@
   padding: 0;
 }
 
+:root {
+  --purple: #3d4ff3;
+  --text-white: #fff;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* Header-section */
