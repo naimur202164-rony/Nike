@@ -183,3 +183,25 @@ footer .right img {
   width: 599px;
   height: 350px;
 }
+
+footer .left .box {
+  border-radius: 10px;
+  padding: 20px 25px;
+  gap: 35px;
+  background-color: #fff9f4;
+  margin: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+footer .left .box h2 {
+  padding: 10px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--dark-balue);
+}
+footer .left .box p {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--dark-balue);
+}
