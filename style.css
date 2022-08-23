@@ -126,3 +126,31 @@ nav > .logo {
   color: var(--orange);
 }
 /* Formal shoes */
+.formal-shoes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.formal-shoes-container .f-shoe {
+  padding: 23px 15px;
+  border-radius: 0.5rem;
+  box-shadow: 0.1px 1px 1px 1px rgb(243, 234, 234);
+}
+
+.formal-shoes-container .f-shoe h2 {
+  font-size: 24px;
+  padding: 15px 0px;
+  color: var(--dark-balue);
+}
+.formal-shoes-container .f-shoe p {
+  padding: 10px 0px;
+  font-size: 16px;
+  color: var(--dark-balue);
+}
+.formal-shoes-container .f-shoe img {
+  border-radius: 10px;
+  width: 330px;
+  height: 327px;
+}
