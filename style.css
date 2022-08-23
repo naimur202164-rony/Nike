@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  /* background: #e5e5e5; */
 }
 :root {
   --purple: #3d4ff3;
@@ -167,4 +168,18 @@ nav > .logo {
   font-size: 36px;
   color: var(--orange);
   font-weight: bold;
+}
+/* Footer_section */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .left img {
+  width: 78px;
+  height: 80px;
+}
+footer .right img {
+  width: 599px;
+  height: 350px;
 }
