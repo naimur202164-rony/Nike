@@ -105,8 +105,22 @@ nav > .logo {
   background: var(--img-bg);
   border-radius: 10px;
 }
-.casul-shoes-container .shoe .img-container img {
+
+.casul-shoes-container .shoe h2 {
+  color: var(--gray);
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+.casul-shoes-container .shoe .shoe-content {
+  padding: 10px 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+}
+
+.casul-shoes-container .shoe .shoe-content p {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--orange);
 }
