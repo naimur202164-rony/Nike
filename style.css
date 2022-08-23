@@ -21,6 +21,12 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  background: var(--purple);
+  padding: 18px 33px;
+  border-radius: 10px;
+  display: inline-block;
+}
 /* Header-section */
 header {
   background: var(--background);
@@ -50,7 +56,7 @@ nav > .logo {
 
 /* Hero-section */
 .hero-section {
-  padding: 42px 58px;
+  padding: 50px 58px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,4 +73,9 @@ nav > .logo {
 }
 .hero-section .right h2 span {
   color: var(--dark-balue);
+}
+.hero-section .right p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: var(--gray);
 }
