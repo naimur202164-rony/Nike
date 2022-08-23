@@ -14,6 +14,7 @@ body {
   --background: #fff9f4;
   --orange: #fa804c;
   --dark-balue: #363958;
+  --img-bg: #f1f1f1;
 }
 
 .container {
@@ -80,4 +81,32 @@ nav > .logo {
   margin: 8px 0;
   font-size: 16px;
   color: var(--gray);
+}
+
+/* Casul Shoes */
+.casul-shoes {
+  padding: 50px 0;
+}
+.casul-shoes-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.shoe {
+  box-shadow: 1px 1px 2px 1px rgb(243, 237, 237);
+  border-radius: 10px;
+  padding: 23px 15px;
+  width: 370px;
+  align-items: center;
+  justify-content: center;
+}
+
+.casul-shoes-container .shoe img {
+  width: 339px;
+  background: var(--img-bg);
+  border-radius: 10px;
+}
+.casul-shoes-container .shoe .img-container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
