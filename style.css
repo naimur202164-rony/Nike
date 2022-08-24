@@ -213,10 +213,19 @@ footer .left .box p {
   header .desktop-nav {
     display: none;
   }
-
+  header .mobile-nav {
+    padding: 28px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   header .mobile-nav img {
     width: 190px;
     height: 26px;
+  }
+  header .mobile-nav .toogle img {
+    width: 30px;
+    height: 30px;
   }
   body {
     background: #3d4ff3;
