@@ -207,4 +207,18 @@ footer .left .box p {
   color: var(--dark-balue);
 }
 
-/* Media query */
+/* Media-query */
+
+@media (max-width: 700px) {
+  header .desktop-nav {
+    display: none;
+  }
+
+  header .mobile-nav img {
+    width: 190px;
+    height: 26px;
+  }
+  body {
+    background: #3d4ff3;
+  }
+} ;
