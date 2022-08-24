@@ -256,7 +256,14 @@ footer .left .box p {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .casul-shoes-container .shoe img {
+    width: 100%;
+  }
+  .casul-shoes-container .shoe {
+    width: 100%;
+  }
 
+  /* Formal shoes */
   .formal-shoes-container {
     display: grid;
     grid-template-columns: 1fr;
