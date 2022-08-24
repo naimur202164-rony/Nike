@@ -57,7 +57,9 @@ nav ul li a {
 nav > .logo {
   width: 290px;
 }
-
+header .mobile-nav {
+  display: none;
+}
 /* Hero-section */
 .hero-section {
   padding: 50px 58px;
@@ -245,4 +247,20 @@ footer .left .box p {
   .hero-section .right p {
     padding: 4px 0px;
   }
-} ;
+
+  /* Showes -Section */
+
+  .casul-shoes-container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .formal-shoes-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* Footer */
+}
