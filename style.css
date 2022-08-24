@@ -261,6 +261,17 @@ footer .left .box p {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .right img {
+    width: 100%;
+  }
 }
