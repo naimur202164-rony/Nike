@@ -227,7 +227,14 @@ footer .left .box p {
     width: 30px;
     height: 30px;
   }
-  body {
-    background: #3d4ff3;
+
+  /* Heros-section */
+
+  .hero-section {
+    padding: 50px 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
   }
 } ;
