@@ -237,4 +237,12 @@ footer .left .box p {
     align-items: center;
     flex-direction: column-reverse;
   }
+
+  .hero-section .right h2 {
+    font-size: 60px;
+    width: 100%;
+  }
+  .hero-section .right p {
+    padding: 4px 0px;
+  }
 } ;
